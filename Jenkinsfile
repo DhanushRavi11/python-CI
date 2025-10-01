@@ -16,7 +16,7 @@ pipeline{
 				sh '''
 					docker stop python_Con || true
 					docker rm python_Con || true
-					docker run -it -d --name python_Con -p 8501 pythonci:1
+					docker run -it -d --name python_Con -p 8501:8501 pythonci:1
 				'''
 			}
 		}
