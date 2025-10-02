@@ -4,9 +4,9 @@ from botocore.exceptions import NoCredentialsError
 import os
 
 # S3 Config
-AWS_ACCESS_KEY = 'AKIA3E2ZCKL4NRLWQOFL'
-AWS_SECRET_KEY = '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'
-BUCKET_NAME = 'browser-s3-pythonci'
+AWS_ACCESS_KEY = ''
+AWS_SECRET_KEY = '+8c3zwDSQOp6y0nMgwChQ'
+BUCKET_NAME = ''
 REGION = 'ap-south-1'
 
 # Create S3 client
