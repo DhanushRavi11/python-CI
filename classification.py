@@ -5,7 +5,7 @@ import os
 
 # S3 Config
 AWS_ACCESS_KEY = ''
-AWS_SECRET_KEY = '+8c3zwDSQOp6y0nMgwChQ'
+AWS_SECRET_KEY = ''
 BUCKET_NAME = ''
 REGION = 'ap-south-1'
 
