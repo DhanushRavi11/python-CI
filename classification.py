@@ -41,7 +41,7 @@ try:
                     st.download_button(label="Click to download", data=f, file_name=filename)
                 os.remove(filename)
     else:
-        st.info("No files found in bucket.")
+        st.info("No files found in the bucket.")
 except NoCredentialsError:
     st.error("AWS credentials not found. Please check your configuration.")
 
