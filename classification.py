@@ -21,7 +21,7 @@ st.title("🗂️ S3 File Manager")
 
 # Upload section
 st.header("📤 Upload File to S3")
-upload_file = st.file_uploader("Choose a file to upload", type=None)
+upload_file = st.file_uploader("Choose a file to Uppload", type=None)
 if upload_file:
     s3.upload_fileobj(upload_file, BUCKET_NAME, upload_file.name)
     st.success(f"Uploaded `{upload_file.name}` successfully!")
